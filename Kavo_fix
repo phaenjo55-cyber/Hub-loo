@@ -10,7 +10,7 @@ local run = game:GetService("RunService")
 
 local Utility = {}
 local Objects = {}
-function Kavo:DraggingEnabled(frame, parent)
+function Kavo:DraggingEnabled(Topbar, Main)
         
     parent = parent or frame
     
